@@ -1,0 +1,20 @@
+{
+    "name": "israel/phpfarm",
+    "description": "php farm test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Israel Simmons",
+            "email": "israel.simmons@gmail.com"
+        }
+    ],
+    "require": {
+        "mustache/mustache": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Classes\\": "app/Classes",
+            "App\\Interfaces\\": "app/Interfaces"
+        }
+    }
+}

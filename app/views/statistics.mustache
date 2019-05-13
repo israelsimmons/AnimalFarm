@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="bootstrap.min.css">
+
+        <title>Statistics</title>
+    </head>
+    <body>
+        <div class="container">
+
+            <h3>Animal Farm</h3>
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Goat barn</h4>
+                    <table class='table col-md-6'>
+                        <tr>
+                            <th>Sum</th><td class='text-right'>{{ barn2.getSum }}</td>
+                        </tr>
+                        <tr>
+                            <th>Average</th><td class='text-right'>{{ barn2.getAvg }}</td>
+                        </tr>
+                        <tr>
+                            <th>Median</th><td class='text-right'>{{ barn2.getMedian }}</td>
+                        </tr>
+                        <tr>
+                            <th>Skewness</th><td class='text-right'>{{ barn2.getSkewness }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="col-md-5">
+                    <h4>Sheep barn</h4>
+                    <table class='table col-md-6'>
+                        <tr>
+                            <th>Sum</th><td class='text-right'>{{ barn1.getSum }}</td>
+                        </tr>
+                        <tr>
+                            <th>Average</th><td class='text-right'>{{ barn1.getAvg }}</td>
+                        </tr>
+                        <tr>
+                            <th>Median</th><td class='text-right'>{{ barn1.getMedian }}</td>
+                        </tr>
+                        <tr>
+                            <th>Skewness</th><td class='text-right'>{{ barn1.getSkewness }}</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
